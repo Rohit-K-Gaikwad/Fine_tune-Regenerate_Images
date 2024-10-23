@@ -10,7 +10,7 @@ app = FastAPI()
 
 # Replicate API base URL and your token from environment variables
 REPLICATE_API_URL = "https://api.replicate.com/v1/predictions"
-REPLICATE_API_TOKEN = "r8_AyFi4NF1dRHfer1jrPCjFkcRRH90UJ73IVc2j"
+REPLICATE_API_TOKEN = "" # enter your secrete key
 
 # Pydantic models for request validation
 class ImageGenerationRequest(BaseModel):
